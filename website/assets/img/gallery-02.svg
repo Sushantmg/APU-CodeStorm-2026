@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Team Formation">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <circle cx="680.0" cy="120.0" r="140" fill="rgba(255,255,255,.10)"/>
+  <circle cx="96.0" cy="510.0" r="110" fill="rgba(0,0,0,.16)"/>
+  <text x="60" y="312.0" font-family="Helvetica,Arial" font-size="86" font-weight="bold" fill="#ffffff" opacity=".92">//</text>
+  <text x="60" y="420.0" font-family="Helvetica,Arial" font-size="44" font-weight="bold" fill="#ffffff">Team Formation</text>
+  <text x="60" y="480.0" font-family="Helvetica,Arial" font-size="24" fill="rgba(255,255,255,.85)">Find your crew</text>
+</svg>

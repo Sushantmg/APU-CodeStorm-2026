@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="CodeStorm hero banner">
+  <defs>
+    <linearGradient id="h" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/><stop offset="55%" stop-color="#10233d"/><stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <pattern id="hg" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(34,211,238,.13)"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="700" fill="url(#h)"/>
+  <rect width="1600" height="700" fill="url(#hg)"/>
+  <circle cx="1320" cy="150" r="230" fill="rgba(34,211,238,.16)"/>
+  <circle cx="1480" cy="520" r="170" fill="rgba(245,158,11,.14)"/>
+  <g opacity=".55" fill="none" stroke="#22d3ee" stroke-width="3">
+    <path d="M120 560h300M120 590h180M120 620h240"/>
+  </g>
+  <g font-family="Helvetica,Arial" fill="#e2e8f0" font-size="30">
+    <text x="1130" y="300" fill="#22d3ee">&lt;hack&gt;</text>
+    <text x="1130" y="350" fill="#f59e0b">48 hours</text>
+    <text x="1130" y="400" fill="#94a3b8">&lt;/hack&gt;</text>
+  </g>
+</svg>

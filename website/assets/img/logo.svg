@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="APU CodeStorm logo">
+  <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient></defs>
+  <path d="M32 3 58 18v28L32 61 6 46V18z" fill="url(#lg)"/>
+  <path d="M32 9 53 21v22L32 55 11 43V21z" fill="#0b1220"/>
+  <text x="32" y="41" font-family="Helvetica,Arial" font-size="24" font-weight="bold" fill="#22d3ee" text-anchor="middle">&lt;/&gt;</text>
+</svg>

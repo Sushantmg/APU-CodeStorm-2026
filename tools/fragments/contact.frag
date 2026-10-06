@@ -1,0 +1,142 @@
+<!--TITLE: Contact Us | APU CodeStorm 2026-->
+<!--DESC: Contact the APU CodeStorm 2026 committee - enquiry form, phone, e-mail, social links and venue map.-->
+<section class="page-header" style="background-image:linear-gradient(rgba(11,18,32,.82),rgba(11,18,32,.92)),url('assets/img/contact-banner.svg')">
+  <div class="container">
+    <p class="crumbs"><a href="index.html">Home</a> &rsaquo; Contact Us</p>
+    <span class="kicker">We reply within 2 working days</span>
+    <h1>Contact Us</h1>
+    <p class="lead">Questions about registration, accessibility, press or partnerships - the committee
+      is one form away.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid--2">
+    <div>
+      <div class="section-head">
+        <span class="kicker">Enquiry form</span>
+        <h2>Send a message</h2>
+      </div>
+
+      <form data-validate data-success="Message received. A committee member will reply within 2 working days." novalidate>
+        <div class="form-result alert" hidden role="status"></div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="cname">Your name <span class="req">*</span></label>
+            <input id="cname" name="cname" type="text" autocomplete="name" required>
+            <span class="error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="cemail">E-mail <span class="req">*</span></label>
+            <input id="cemail" name="cemail" type="email" autocomplete="email" required placeholder="you@student.apu.edu.my">
+            <span class="error" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label for="ctopic">Topic <span class="req">*</span></label>
+            <select id="ctopic" name="ctopic" required>
+              <option value="">Choose a topic</option>
+              <option>Registration &amp; team changes</option>
+              <option>Schedule &amp; venue</option>
+              <option>Sponsorship &amp; partnerships</option>
+              <option>Press &amp; media</option>
+              <option>Accessibility &amp; welfare</option>
+              <option>Something else</option>
+            </select>
+            <span class="error" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label for="cmessage">Message <span class="req">*</span></label>
+            <textarea id="cmessage" name="cmessage" rows="6" minlength="20" required
+                      placeholder="Tell us what you need, including your team code if relevant."></textarea>
+            <span class="hint">Minimum 20 characters.</span>
+            <span class="error" aria-live="polite"></span>
+          </div>
+          <div class="field field--full">
+            <label class="check">
+              <input type="checkbox" id="cprivacy" name="cprivacy" required>
+              I agree that the committee may store this message to answer my enquiry.
+            </label>
+            <span class="error" aria-live="polite"></span>
+          </div>
+        </div>
+        <button class="btn btn--block" type="submit">Send message</button>
+      </form>
+    </div>
+
+    <aside>
+      <div class="panel">
+        <h3>Direct channels</h3>
+        <ul>
+          <li><strong>General:</strong> <a href="mailto:codestorm@apu.edu.my">codestorm@apu.edu.my</a></li>
+          <li><strong>Media:</strong> <a href="mailto:media@apu.edu.my">media@apu.edu.my</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+60355650799">+60 3-5565 0799</a> (Mon&ndash;Fri, 09:00&ndash;17:00)</li>
+          <li><strong>Office:</strong> Innovation Lab, Level 3, Block C</li>
+        </ul>
+        <div class="socials">
+          <a href="https://www.facebook.com" aria-label="Facebook on social media">f</a>
+          <a href="https://www.instagram.com" aria-label="Instagram on social media">ig</a>
+          <a href="https://www.linkedin.com" aria-label="LinkedIn on social media">in</a>
+          <a href="https://github.com" aria-label="GitHub organisation">gh</a>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:1.2rem">
+        <h3>Response times</h3>
+        <ul>
+          <li>Registration questions: within 2 working days</li>
+          <li>Welfare reports: within 24 hours</li>
+          <li>Press requests: within 3 working days</li>
+        </ul>
+      </div>
+
+      <figure class="media" style="margin-top:1.2rem">
+        <img src="assets/img/contact-banner.svg" width="1600" height="420"
+             alt="Banner inviting visitors to get in touch with the CodeStorm committee">
+        <figcaption>The committee shares one inbox during event week for faster replies.</figcaption>
+      </figure>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--alt" id="map">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Venue map</span>
+      <h2>Block C, APU Cyberjaya Campus</h2>
+      <p class="lead">Keynotes in the Lecture Theatre, the build floor upstairs, food one level down.</p>
+    </div>
+
+    <div class="card">
+      <svg viewBox="0 0 900 460" width="900" height="460" role="img"
+           aria-label="Floor plan showing Lecture Theatre 1, Innovation Lab, cafeteria, registration desk and quiet room in Block C">
+        <rect width="900" height="460" rx="16" fill="#0f172a" stroke="#22304d" stroke-width="3"/>
+        <rect x="40" y="40" width="360" height="200" rx="10" fill="#131f36" stroke="#22d3ee" stroke-width="2"/>
+        <text x="60" y="90" fill="#22d3ee" font-family="Helvetica,Arial" font-size="22" font-weight="bold">Lecture Theatre 1</text>
+        <text x="60" y="120" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">Keynotes / Demo day / Awards</text>
+        <text x="60" y="150" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">Level 2</text>
+
+        <rect x="430" y="40" width="430" height="200" rx="10" fill="#131f36" stroke="#f59e0b" stroke-width="2"/>
+        <text x="450" y="90" fill="#f59e0b" font-family="Helvetica,Arial" font-size="22" font-weight="bold">Innovation Lab</text>
+        <text x="450" y="120" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">Build floor &middot; mentor desks</text>
+        <text x="450" y="150" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">Level 3 &middot; 24 hours</text>
+
+        <rect x="40" y="270" width="250" height="150" rx="10" fill="#131f36" stroke="#22c55e" stroke-width="2"/>
+        <text x="60" y="315" fill="#22c55e" font-family="Helvetica,Arial" font-size="20" font-weight="bold">Cafeteria</text>
+        <text x="60" y="345" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">Meals &amp; snacks &middot; Level 1</text>
+
+        <rect x="320" y="270" width="250" height="150" rx="10" fill="#131f36" stroke="#a78bfa" stroke-width="2"/>
+        <text x="340" y="315" fill="#a78bfa" font-family="Helvetica,Arial" font-size="20" font-weight="bold">Registration Desk</text>
+        <text x="340" y="345" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">Check-in &middot; Level 1 lobby</text>
+
+        <rect x="600" y="270" width="260" height="150" rx="10" fill="#131f36" stroke="#ec4899" stroke-width="2"/>
+        <text x="620" y="315" fill="#ec4899" font-family="Helvetica,Arial" font-size="20" font-weight="bold">Quiet Room</text>
+        <text x="620" y="345" fill="#94a3b8" font-family="Helvetica,Arial" font-size="16">24h welfare space &middot; L2</text>
+
+        <path d="M400 240v30M290 345h30M570 345h30" stroke="#22304d" stroke-width="3"/>
+        <text x="410" y="440" fill="#64748b" font-family="Helvetica,Arial" font-size="14">Block C main corridor &middot; lifts and stairs at both ends</text>
+      </svg>
+      <p class="small muted" style="margin-top:1rem">Parking is available in Basement B. The campus is a
+        seven-minute walk from the Cyberjaya Multimedia University MRT feeder stop.</p>
+    </div>
+  </div>
+</section>

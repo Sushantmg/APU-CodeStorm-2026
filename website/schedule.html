@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Filterable three-day programme for APU CodeStorm 2026 with a downloadable calendar file.">
+  <title>Event Schedule | APU CodeStorm 2026</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="APU CodeStorm logo" width="40" height="40">
+        <span>APU <b>CodeStorm</b> 2026<small>INTERFACULTY HACKATHON</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="highlights.html">Past Events</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header" style="background-image:linear-gradient(rgba(11,18,32,.82),rgba(11,18,32,.92)),url('assets/img/schedule-banner.svg')">
+      <div class="container">
+        <p class="crumbs"><a href="index.html">Home</a> &rsaquo; Event Schedule</p>
+        <span class="kicker">4 &ndash; 6 December 2026</span>
+        <h1>Event Schedule &amp; Programme</h1>
+        <p class="lead">Filter by day or session type, then download the calendar to keep every session in sync.</p>
+        <div class="btn-row">
+          <a class="btn btn--accent" id="download-calendar" href="#">Download calendar (.ics)</a>
+          <a class="btn btn--ghost" href="resources.html">Full programme (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Filter the programme</span>
+          <h2>Forty sessions, three days, one track map</h2>
+        </div>
+
+        <div class="filter-bar" data-filter-group="[data-filter-item]" role="group" aria-label="Filter schedule">
+          <button class="filter-btn is-active" type="button" data-filter="all">All sessions</button>
+          <button class="filter-btn" type="button" data-filter="day1">Day 1 &middot; Fri</button>
+          <button class="filter-btn" type="button" data-filter="day2">Day 2 &middot; Sat</button>
+          <button class="filter-btn" type="button" data-filter="day3">Day 3 &middot; Sun</button>
+          <button class="filter-btn" type="button" data-filter="keynote">Keynotes</button>
+          <button class="filter-btn" type="button" data-filter="clinic">Clinics</button>
+          <button class="filter-btn" type="button" data-filter="social">Social</button>
+          <button class="filter-btn" type="button" data-filter="judging">Judging</button>
+        </div>
+        <p class="muted small" id="filter-count" aria-live="polite">12 item(s) shown</p>
+
+        <h3 class="muted" style="margin-top:1.6rem">Day 1 &middot; Friday 4 December 2026</h3>
+
+        <article class="schedule-item" data-filter-item data-tags="day1 keynote"
+                 data-event data-start="20261204T090000" data-end="20261204T103000"
+                 data-venue="Lecture Theatre 1">
+          <time datetime="2026-12-04T09:00">09:00 &ndash; 10:30</time>
+          <div><h4>Opening ceremony &amp; kickoff keynote</h4>
+            <p>Welcome address, problem statements and the rules of engagement. Lecture Theatre 1.</p></div>
+          <span class="badge">Keynote</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day1 social"
+                 data-event data-start="20261204T103000" data-end="20261204T120000"
+                 data-venue="Innovation Lab">
+          <time datetime="2026-12-04T10:30">10:30 &ndash; 12:00</time>
+          <div><h4>Team formation mixer</h4>
+            <p>Solo participants pitch themselves, teams finalise members and register their track.</p></div>
+          <span class="badge badge--accent">Social</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day1 clinic"
+                 data-event data-start="20261204T140000" data-end="20261204T160000"
+                 data-venue="Innovation Lab">
+          <time datetime="2026-12-04T14:00">14:00 &ndash; 16:00</time>
+          <div><h4>Build sprint I &middot; architecture clinic</h4>
+            <p>Mentors rotate through tables to stress-test each team's data model and scope.</p></div>
+          <span class="badge badge--ok">Clinic</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day1 clinic"
+                 data-event data-start="20261204T160000" data-end="20261204T170000"
+                 data-venue=" Seminar Room 2">
+          <time datetime="2026-12-04T16:00">16:00 &ndash; 17:00</time>
+          <div><h4>Workshop: Git collaboration without tears</h4>
+            <p>Branching strategy, pull requests and conflict resolution for four-person teams.</p></div>
+          <span class="badge badge--ok">Clinic</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day1 social"
+                 data-event data-start="20261204T190000" data-end="20261204T200000"
+                 data-venue="Cafeteria">
+          <time datetime="2026-12-04T19:00">19:00 &ndash; 20:00</time>
+          <div><h4>Dinner &amp; mentor lightning talks</h4>
+            <p>Three ten-minute talks from partner engineers, then open floor questions.</p></div>
+          <span class="badge badge--accent">Social</span>
+        </article>
+
+        <h3 class="muted" style="margin-top:2rem">Day 2 &middot; Saturday 5 December 2026</h3>
+
+        <article class="schedule-item" data-filter-item data-tags="day2 clinic"
+                 data-event data-start="20261205T100000" data-end="20261205T120000"
+                 data-venue="Innovation Lab">
+          <time datetime="2026-12-05T10:00">10:00 &ndash; 12:00</time>
+          <div><h4>Build sprint II &middot; UX clinic</h4>
+            <p>Design mentors run five-minute critiques on each team's interface and user flow.</p></div>
+          <span class="badge badge--ok">Clinic</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day2 keynote"
+                 data-event data-start="20261205T130000" data-end="20261205T140000"
+                 data-venue="Lecture Theatre 1">
+          <time datetime="2026-12-05T13:00">13:00 &ndash; 14:00</time>
+          <div><h4>Mid-build showcase &amp; panel</h4>
+            <p>Six teams show two-minute progress demos; judges offer public feedback.</p></div>
+          <span class="badge">Keynote</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day2 clinic"
+                 data-event data-start="20261205T150000" data-end="20261205T160000"
+                 data-venue="Seminar Room 2">
+          <time datetime="2026-12-05T15:00">15:00 &ndash; 16:00</time>
+          <div><h4>Workshop: pitching in three minutes</h4>
+            <p>Structure, demo pacing and handling tough judge questions.</p></div>
+          <span class="badge badge--ok">Clinic</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day2 social"
+                 data-event data-start="20261205T210000" data-end="20261205T220000"
+                 data-venue="Open Plaza">
+          <time datetime="2026-12-05T21:00">21:00 &ndash; 22:00</time>
+          <div><h4>Midnight recharge: board games &amp; sound check</h4>
+            <p>Twenty minutes away from the screen; acoustic set by the student music club.</p></div>
+          <span class="badge badge--accent">Social</span>
+        </article>
+
+        <h3 class="muted" style="margin-top:2rem">Day 3 &middot; Sunday 6 December 2026</h3>
+
+        <article class="schedule-item" data-filter-item data-tags="day3 judging"
+                 data-event data-start="20261206T090000" data-end="20261206T120000"
+                 data-venue="Innovation Lab">
+          <time datetime="2026-12-06T09:00">09:00 &ndash; 12:00</time>
+          <div><h4>Final build sprint &amp; submission window</h4>
+            <p>Code freeze at 12:00 sharp; uploads accepted through the participant dashboard.</p></div>
+          <span class="badge badge--danger">Deadline</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day3 judging"
+                 data-event data-start="20261206T140000" data-end="20261206T170000"
+                 data-venue="Lecture Theatre 1">
+          <time datetime="2026-12-06T14:00">14:00 &ndash; 17:00</time>
+          <div><h4>Demo day &middot; three-minute pitches</h4>
+            <p>Twelve finalist teams pitch to the panel; public gallery stays open throughout.</p></div>
+          <span class="badge badge--danger">Judging</span>
+        </article>
+
+        <article class="schedule-item" data-filter-item data-tags="day3 keynote social"
+                 data-event data-start="20261206T173000" data-end="20261206T183000"
+                 data-venue="Lecture Theatre 1">
+          <time datetime="2026-12-06T17:30">17:30 &ndash; 18:30</time>
+          <div><h4>Award ceremony &amp; closing reception</h4>
+            <p>Track winners, Grand Champion, People's Choice and closing remarks.</p></div>
+          <span class="badge">Keynote</span>
+        </article>
+
+        <div class="alert alert--warn" style="margin-top:1.6rem">
+          <p><strong>Heads up:</strong> the committee may adjust timings by up to 30 minutes. The version
+            on this page is always the latest one - re-download the calendar if you spot a change.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container grid grid--2">
+        <div>
+          <span class="kicker">Venue</span>
+          <h2>Where it happens</h2>
+          <p>All sessions run inside Block C of the APU Cyberjaya campus. The Lecture Theatre hosts
+            keynotes and demo day, while the Innovation Lab is the 24-hour build floor on Day 1 and Day 2.</p>
+          <ul class="checklist">
+            <li>Level 2 Lecture Theatre 1 &ndash; keynotes, judging, awards</li>
+            <li>Level 3 Innovation Lab &ndash; build floor, mentor desks, charging stations</li>
+            <li>Level 1 Cafeteria &ndash; meals, snacks and hydration station</li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn--ghost" href="contact.html#map">See the venue map</a>
+            <a class="btn btn--ghost" href="faq.html">Read the FAQ</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Stay in sync</h3>
+          <p>Export the whole programme to your phone, or grab the plain-text timetable for printing and
+            sticking above your desk.</p>
+          <div class="btn-row">
+            <a class="btn" href="#" id="download-calendar-2" onclick="document.getElementById('download-calendar').click();return false;">Calendar (.ics)</a>
+            <a class="btn btn--ghost" href="#"
+               data-download-name="codestorm-2026-timetable.txt"
+               data-download-text="APU CODESTORM 2026 - TIMETABLE&#10;&#10;DAY 1 - Friday 4 December 2026&#10;09:00-10:30 Opening ceremony and kickoff keynote (LT1)&#10;10:30-12:00 Team formation mixer (Innovation Lab)&#10;14:00-16:00 Build sprint I - architecture clinic&#10;16:00-17:00 Workshop - Git collaboration without tears&#10;19:00-20:00 Dinner and mentor lightning talks&#10;&#10;DAY 2 - Saturday 5 December 2026&#10;10:00-12:00 Build sprint II - UX clinic&#10;13:00-14:00 Mid-build showcase and panel&#10;15:00-16:00 Workshop - pitching in three minutes&#10;21:00-22:00 Midnight recharge: board games and sound check&#10;&#10;DAY 3 - Sunday 6 December 2026&#10;09:00-12:00 Final build sprint and submission window&#10;14:00-17:00 Demo day - three-minute pitches&#10;17:30-18:30 Award ceremony and closing reception">Plain-text timetable</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <img src="assets/img/logo.svg" alt="APU CodeStorm logo" width="40" height="40">
+            <span>APU <b>CodeStorm</b> 2026<small>INTERFACULTY HACKATHON</small></span>
+          </a>
+          <p class="small muted">A student-imagined event organised by the Nexus organising committee
+            for CT053-3-1 Fundamentals of Web Design and Development.</p>
+          <div class="socials">
+            <a href="https://www.facebook.com" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com" aria-label="Instagram">ig</a>
+            <a href="https://www.linkedin.com" aria-label="LinkedIn">in</a>
+            <a href="https://github.com" aria-label="GitHub">gh</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="about.html">About the event</a></li>
+            <li><a href="schedule.html">Programme</a></li>
+            <li><a href="activities.html">Activities &amp; competitions</a></li>
+            <li><a href="register.html">Registration</a></li>
+            <li><a href="resources.html">Resources &amp; downloads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Participants</h4>
+          <ul>
+            <li><a href="gallery.html">Gallery &amp; media</a></li>
+            <li><a href="news.html">News &amp; announcements</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="feedback.html">Feedback survey</a></li>
+            <li><a href="dashboard.html">Participant dashboard</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Innovation Lab, Block C<br>APU Cyberjaya Campus</li>
+            <li><a href="tel:+60355650799">+60 3-5565 0799</a></li>
+            <li><a href="mailto:codestorm@apu.edu.my">codestorm@apu.edu.my</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> APU CodeStorm organising committee.</span>
+        <span>CT053-3-1 Group Assignment &middot; Client-side website built with HTML, CSS and JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Back to top">&#8679;</button>
+</body>
+</html>

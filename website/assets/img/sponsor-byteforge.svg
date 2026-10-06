@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120" role="img" aria-label="ByteForge sponsor logo">
+  <rect x="2" y="2" width="316" height="116" rx="16" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="52" cy="60" r="22" fill="#f59e0b"/>
+  <path d="M44 60l8-12 8 12-8 12z" fill="#0f172a"/>
+  <text x="90" y="70" font-family="Helvetica,Arial" font-size="30" font-weight="bold" fill="#e2e8f0">ByteForge</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="TS">
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#0b1220"/></linearGradient></defs>
+  <rect width="200" height="200" rx="24" fill="url(#a)"/>
+  <circle cx="100" cy="78" r="38" fill="rgba(255,255,255,.85)"/>
+  <path d="M40 175c8-38 32-56 60-56s52 18 60 56z" fill="rgba(255,255,255,.85)"/>
+  <text x="100" y="186" font-family="Helvetica,Arial" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">TS</text>
+</svg>

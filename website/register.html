@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register a team, apply as a volunteer or join the audience for APU CodeStorm 2026.">
+  <title>Registration | APU CodeStorm 2026</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="APU CodeStorm logo" width="40" height="40">
+        <span>APU <b>CodeStorm</b> 2026<small>INTERFACULTY HACKATHON</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="highlights.html">Past Events</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header" style="background-image:linear-gradient(rgba(11,18,32,.82),rgba(11,18,32,.92)),url('assets/img/register-banner.svg')">
+      <div class="container">
+        <p class="crumbs"><a href="index.html">Home</a> &rsaquo; Registration</p>
+        <span class="kicker">Closes 27 November 2026</span>
+        <h1>Registration &amp; Forms</h1>
+        <p class="lead">One form for participants, volunteers and audience members. Everything is
+          validated in your browser before submission.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid--2">
+        <div>
+          <div class="alert alert--warn">
+            <p><strong>Demo notice:</strong> this website is a front-end project, so no data leaves your
+              browser. Submissions are validated and confirmed locally.</p>
+          </div>
+
+          <form data-validate data-success="Your provisional seat is confirmed. Check your inbox for the confirmation pack and calendar invite." novalidate>
+            <div class="form-result alert" hidden role="status"></div>
+
+            <fieldset>
+              <legend>1. Participation type</legend>
+              <div class="radio-row">
+                <label class="check"><input type="radio" name="ptype" value="participant" required checked> Competing team</label>
+                <label class="check"><input type="radio" name="ptype" value="volunteer"> Volunteer</label>
+                <label class="check"><input type="radio" name="ptype" value="audience"> Audience / observer</label>
+              </div>
+              <p class="error small" aria-live="polite"></p>
+            </fieldset>
+
+            <fieldset>
+              <legend>2. Team &amp; captain details</legend>
+              <div class="form-grid">
+                <div class="field field--full">
+                  <label for="team">Team name <span class="req">*</span></label>
+                  <input id="team" name="team" type="text" minlength="3" placeholder="e.g. Null Pointers" required>
+                  <span class="hint">3&ndash;30 characters, shown on the leaderboard.</span>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="captain">Captain full name <span class="req">*</span></label>
+                  <input id="captain" name="captain" type="text" autocomplete="name" required>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="matric">Student ID <span class="req">*</span></label>
+                  <input id="matric" name="matric" type="text" placeholder="e.g. 2312789" pattern="[0-9]{7}" required>
+                  <span class="hint">7 digits.</span>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="email">E-mail <span class="req">*</span></label>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="you@student.apu.edu.my" required>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="phone">Mobile number <span class="req">*</span></label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="01x-xxx xxxx" required>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="faculty">Faculty <span class="req">*</span></label>
+                  <select id="faculty" name="faculty" required>
+                    <option value="">Select your faculty</option>
+                    <option>Computing &amp; Information Technology</option>
+                    <option>Engineering &amp; Technology</option>
+                    <option>Business Management</option>
+                    <option>Design &amp; Media</option>
+                    <option>Accounting, Finance &amp; Economics</option>
+                    <option>International Studies &amp; Marketing</option>
+                  </select>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="track">Preferred track <span class="req">*</span></label>
+                  <select id="track" name="track" required>
+                    <option value="">Select a track</option>
+                    <option>01 - AI &amp; Data</option>
+                    <option>02 - FinTech</option>
+                    <option>03 - HealthTech</option>
+                    <option>04 - Sustainability</option>
+                    <option>05 - Games &amp; XR</option>
+                    <option>06 - Open Innovation</option>
+                  </select>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>3. Team members</legend>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="m2">Member 2 name</label>
+                  <input id="m2" name="m2" type="text">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="m2id">Member 2 student ID</label>
+                  <input id="m2id" name="m2id" type="text">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="m3">Member 3 name</label>
+                  <input id="m3" name="m3" type="text">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="m3id">Member 3 student ID</label>
+                  <input id="m3id" name="m3id" type="text">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="m4">Member 4 name (optional)</label>
+                  <input id="m4" name="m4" type="text">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="m4id">Member 4 student ID (optional)</label>
+                  <input id="m4id" name="m4id" type="text">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>4. Requirements &amp; declaration</legend>
+              <div class="form-grid">
+                <div class="field field--full">
+                  <label for="diet">Dietary requirements</label>
+                  <textarea id="diet" name="diet" rows="2" placeholder="Vegetarian, halal, allergies..."></textarea>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field field--full">
+                  <label for="idea">One-line project idea (optional)</label>
+                  <input id="idea" name="idea" type="text" maxlength="120" placeholder="A timetable clash detector for final-year students">
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field field--full">
+                  <label class="check">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    I have read and accept the competition rules, code of conduct and data-use notice.
+                  </label>
+                  <span class="error" aria-live="polite"></span>
+                </div>
+                <div class="field field--full">
+                  <label class="check">
+                    <input type="checkbox" id="news" name="news">
+                    Send me event updates by e-mail (you can unsubscribe at any time).
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <button class="btn btn--block" type="submit">Submit registration</button>
+            <p class="form-note">Fields marked <span class="req">*</span> are required. You will receive a
+              confirmation e-mail within two working days of the committee reviewing your entry.</p>
+          </form>
+        </div>
+
+        <aside>
+          <div class="panel">
+            <h3>Key dates</h3>
+            <ul>
+              <li>Registration opens: <strong>12 October 2026</strong></li>
+              <li>Registration closes: <strong>27 November 2026, 23:59</strong></li>
+              <li>Team confirmations sent: <strong>30 November 2026</strong></li>
+              <li>Kickoff: <strong>4 December 2026, 09:00</strong></li>
+            </ul>
+          </div>
+
+          <div class="panel" style="margin-top:1.2rem">
+            <h3>Seats remaining</h3>
+            <p class="muted small">89 of 128 team seats taken</p>
+            <div class="progress" role="img" aria-label="89 of 128 seats registered">
+              <span style="width:70%"></span>
+            </div>
+            <p class="small muted" style="margin-top:.6rem">Volunteer roster: 34 of 40 filled.</p>
+          </div>
+
+          <div class="panel" style="margin-top:1.2rem">
+            <h3>What happens next</h3>
+            <ul>
+              <li>You get a confirmation e-mail with your team code.</li>
+              <li>Log in to the dashboard to edit your profile.</li>
+              <li>Attend the online briefing on 1 December, 18:00.</li>
+              <li>Show up Friday with your laptop and student card.</li>
+            </ul>
+          </div>
+
+          <figure class="media" style="margin-top:1.2rem">
+            <img src="assets/img/gallery-02.svg" width="800" height="600"
+                 alt="Illustration of students forming teams during the registration mixer">
+            <figcaption>Registration closes when the 128th team seat is taken.</figcaption>
+          </figure>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <img src="assets/img/logo.svg" alt="APU CodeStorm logo" width="40" height="40">
+            <span>APU <b>CodeStorm</b> 2026<small>INTERFACULTY HACKATHON</small></span>
+          </a>
+          <p class="small muted">A student-imagined event organised by the Nexus organising committee
+            for CT053-3-1 Fundamentals of Web Design and Development.</p>
+          <div class="socials">
+            <a href="https://www.facebook.com" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com" aria-label="Instagram">ig</a>
+            <a href="https://www.linkedin.com" aria-label="LinkedIn">in</a>
+            <a href="https://github.com" aria-label="GitHub">gh</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="about.html">About the event</a></li>
+            <li><a href="schedule.html">Programme</a></li>
+            <li><a href="activities.html">Activities &amp; competitions</a></li>
+            <li><a href="register.html">Registration</a></li>
+            <li><a href="resources.html">Resources &amp; downloads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Participants</h4>
+          <ul>
+            <li><a href="gallery.html">Gallery &amp; media</a></li>
+            <li><a href="news.html">News &amp; announcements</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="feedback.html">Feedback survey</a></li>
+            <li><a href="dashboard.html">Participant dashboard</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Innovation Lab, Block C<br>APU Cyberjaya Campus</li>
+            <li><a href="tel:+60355650799">+60 3-5565 0799</a></li>
+            <li><a href="mailto:codestorm@apu.edu.my">codestorm@apu.edu.my</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> APU CodeStorm organising committee.</span>
+        <span>CT053-3-1 Group Assignment &middot; Client-side website built with HTML, CSS and JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Back to top">&#8679;</button>
+</body>
+</html>
